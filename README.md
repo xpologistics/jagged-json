@@ -11,14 +11,15 @@ level of nesting for each dot.
 ```javascript
 
 // typical flattened structure
-var input = { filters.minMax.min: 10,
-filters.minMax.max: 100,
-filters.keyWord: 'jagged',
-filters.geography.lat: 1.123,
-filters.geography.long: -10.342,
-filters.geography.radius: 15,
-filters.myList[0]: 'apples',
-filters.myList[1]: 'oranges'
+var input = {
+"filters.minMax.min": 10,
+"filters.minMax.max": 100,
+"filters.keyWord": "jagged",
+"filters.geography.lat": 1.123,
+"filters.geography.long": -10.342,
+"filters.geography.radius": 15,
+"filters.myList[0]": "apples",
+"filters.myList[1]": "oranges"
 }
 
 var jaggedJson = require('jagged-json');
