@@ -1,7 +1,5 @@
 var _ = require('underscore');
 
-module.exports = Filterize;
-
 /*
  * private
  */
