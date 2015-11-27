@@ -1,0 +1,22 @@
+{
+  "name": "jagged-json",
+  "version": "1.0.0",
+  "description": "Takes a flat JSON object and converts it to a hierarchy",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xpologistics/jagged-json.git"
+  },
+  "author": "Jay Silberkleit",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/xpologistics/jagged-json/issues"
+  },
+  "homepage": "https://github.com/xpologistics/jagged-json#readme",
+  "dependencies": {
+    "underscore": "^1.8.3"
+  }
+}
